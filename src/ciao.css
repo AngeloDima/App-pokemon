@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.Container{
+    display: flex;
+}
+
+.Form{
+    width: 40%;
+    height: 100vh;
+    /* background-color: red; */
+    border-right: 1px solid rgba(0, 0, 0, 0.149);
+    box-shadow: inset -15px 0px 9px -10px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Form button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+}
+
+.Form input{
+    padding: 15px 60px 15px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+}
+
+.specifico{
+    width: 100%;
+    /* height: 50%; */
+    background-color: white;
+    margin-top: 80px;
+    box-shadow: inset -15px 0px 9px -10px #00000026;
+}
+
+.generale{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: white;
+    box-shadow: 3px 3px 6px 0px #00000026;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaz{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.boxScelto{
+    border-top: 1px solid rgba(0, 0, 0, 0.149);
+    padding-top: 20px;
+}
+
+.mar{
+    margin: 50px 0px 5px 0px;
+}
+
+
+img{
+    width: 150px;
+    height: 1s50px;
+}
